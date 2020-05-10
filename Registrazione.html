@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Registrazione</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+<header>
+	<h1 id="logo"><a href="HomePage.html">Vegetables</a></h1>	
+</header>
+<!-- end #header -->
+
+
+
+<section id="wrapper">
+	<nav id="upper-menu">
+		<ul>
+			<li><a href="HomePage.html">Homepage</a></li>
+			<li><a href="#">Chi siamo</a></li>
+			<li><a href="#">Contattaci</a></li>
+			<li class="current_page_item"><a href="Login.html">Accedi</a></li>
+		</ul>
+	</nav>
+	<!-- end #menu -->
+
+	<div id="search" >
+		<form method="post" action="#">
+				<input type="text" name="search-string" id="search-text" />
+		</form>
+	</div>
+</section>
+
+
+
+
+
+<div id="page">
+	<section id="Registrazione">
+		<form>
+			<ul class="form-style-1">
+				<li><label>Nome e cognome <span class="required">*</span></label><input type="text" name="Nome" class="field-divided" placeholder="Nome" /> <input type="text" name="Cognome" class="field-divided" placeholder="Cognome" /></li>
+				<li>
+					<label>Data di nascita</label>
+					<input type="date" name="DataNascita" class="field-long" />
+				</li>
+				<li>
+					<label>Occupazione</label>
+					<select name="Occupazione" class="field-select">
+						<option>Lavoro 1</option>
+						<option>Lavoro 2</option>
+						<option>Lavoro 3</option>
+						</select>
+				</li>
+				<li>
+					<label>Via e civico</label>
+					<input type="text" name="Via" class="field-divided" placeholder="Via" /> <input type="text" name="Civico" class="field-divided" placeholder="Civico" />
+				</li>
+				<li>
+					<label>Città e CAP</label>
+					<input type="text" name="Citta" class="field-divided" placeholder="Città"/> <input type="text" name="CAP" class="field-divided" placeholder="00000" size="5"/>
+				</li>
+				<li>
+					<label>Username <span class="required">*</span></label>
+					<input type="text" name="Username" class="field-long" />
+				</li>
+				<li>
+					<label>Password <span class="required">*</span></label>
+					<input type="password" name="Passowrd" class="field-divided" placeholder="Password"/> <input type="password" name="Conferma password" class="field-divided" placeholder="Conferma password"/>
+				</li>
+				<li>
+					<label>Email <span class="required">*</span></label>
+					<input type="email" name="Email" class="field-long" placeholder="Email"/>
+				</li>
+				<li>
+					<input type="submit" value="Submit" /> <input type="reset" value="Reset" />
+				</li>
+			</ul>
+		</form>
+		<p class="login">Hai già un account? <a href="Login.html">Effettua il Login!</a></p>
+	</section>
+</div>
+<!-- end #page -->
+<!-- MODIFICARE -->
+<section id="bottom-menu">
+	<ul>
+		<li><a href="HomePage.html">Homepage</a></li>
+		<li><a href="#">Info Organizzazione</a></li>
+		<li><a href="#">Info Sito</a></li>
+	</ul>
+</section>
+<footer>
+	<p>&copy; Catalog designed by <a href="https://github.com/denaldo98/ProgMobile3" rel="nofollow">Saponara</a>.</p>
+</footer>
+<!-- end #footer -->
+</body>
+</html>
